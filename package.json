@@ -1,0 +1,26 @@
+{
+  "name": "gamgle",
+  "version": "1.0.0",
+  "description": "Creating a game information search site with VanillaJS and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimhscom/gamgle.git"
+  },
+  "author": "Hyunsu Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimhscom/gamgle/issues"
+  },
+  "homepage": "https://github.com/kimhscom/gamgle#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "eslint": "^7.10.0"
+  }
+}
