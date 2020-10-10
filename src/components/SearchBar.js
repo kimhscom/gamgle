@@ -1,9 +1,11 @@
 export default class SearchBar {
-  constructor({ $target }) {
+  constructor($target, onSearch) {
     this.section = document.createElement("section");
     this.section.className = "searching-section";
 
     $target.appendChild(this.section);
+
+    this.onSearch = onSearch;
 
     this.render();
   }
@@ -21,6 +23,16 @@ export default class SearchBar {
     const searchButton = document.createElement("button");
     searchButton.className = "search-button";
     searchButton.innerText = "영화 검색";
+
+    searchBox.addEventListener("keyup", (event) => {
+      if (event.keyCode === 13) {
+        this.onSearch(searchBox.value);
+      }
+    });
+
+    searchButton.addEventListener("click", () => {
+      this.onSearch(searchBox.value);
+    });
 
     wrapper.appendChild(searchBox);
     wrapper.appendChild(searchButton);

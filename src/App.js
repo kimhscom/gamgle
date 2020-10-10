@@ -5,8 +5,8 @@ export default class App {
   constructor($target) {
     console.log("App is created!");
 
-    const searchBar = new SearchBar({ $target });
-
-    api.searchMovies("배트맨");
+    const searchBar = new SearchBar($target, (term) => {
+      api.searchMovies(term);
+    });
   }
 }
