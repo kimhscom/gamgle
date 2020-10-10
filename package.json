@@ -2,7 +2,7 @@
   "name": "movie-search",
   "version": "1.0.0",
   "description": "VanillaJS와 NodeJS를 활용하여 영화 검색 사이트 만들기",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "dev": "npm run clean && parcel src/index.html -p 3000",
     "build": "parcel build src/index.html",
