@@ -16,11 +16,11 @@ export default class SearchBar {
 
     const searchBox = document.createElement("input");
     searchBox.className = "search-box";
-    searchBox.placeholder = "Search for games.";
+    searchBox.placeholder = "영화를 검색하세요.";
 
     const searchButton = document.createElement("button");
     searchButton.className = "search-button";
-    searchButton.innerText = "Gamgle search";
+    searchButton.innerText = "영화 검색";
 
     wrapper.appendChild(searchBox);
     wrapper.appendChild(searchButton);

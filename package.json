@@ -1,7 +1,7 @@
 {
-  "name": "gamgle",
+  "name": "movie-search",
   "version": "1.0.0",
-  "description": "Creating a game information search site with VanillaJS and NodeJS",
+  "description": "VanillaJS와 NodeJS를 활용하여 영화 검색 사이트 만들기",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && parcel src/index.html -p 3000",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimhscom/gamgle.git"
+    "url": "git+https://github.com/kimhscom/movie-search.git"
   },
   "author": "Hyunsu Kim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kimhscom/gamgle/issues"
+    "url": "https://github.com/kimhscom/movie-search/issues"
   },
-  "homepage": "https://github.com/kimhscom/gamgle#readme",
+  "homepage": "https://github.com/kimhscom/movie-search#readme",
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
